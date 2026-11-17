@@ -1,0 +1,122 @@
+{
+  "canvas": {
+    "w": 1024,
+    "h": 3243
+  },
+  "elements": [
+    {
+      "id": "title",
+      "type": "text",
+      "text": "amsterdam on foot, by bike and kayak",
+      "nowrap": true,
+      "x": 204,
+      "y": 48,
+      "w": 460,
+      "fontSize": 14,
+      "fontWeight": 700,
+      "lineHeight": 1
+    },
+    {
+      "id": "intro",
+      "type": "text",
+      "text": "three vignettes documenting the traversal of three unique mobility-scapes, each embodying their own sensory and social experiences.",
+      "x": 204,
+      "y": 93,
+      "w": 640,
+      "fontSize": 12
+    },
+    {
+      "id": "biking-heading",
+      "type": "text",
+      "text": "biking",
+      "nowrap": true,
+      "x": 213,
+      "y": 682,
+      "w": 120,
+      "fontSize": 14,
+      "fontWeight": 700,
+      "lineHeight": 1
+    },
+    {
+      "id": "biking-body",
+      "type": "text",
+      "text": "A cool morning breeze brushes my face as I begin my cycle towards Roeterseiland. I weave through the narrow streets of Amsterdam, moving with a sense of speed and urgency that isn\u2019t truly necessary. The irregular brick road sends vibrations through my body; my mental state intensifies as I observe my surroundings before crossing the road. I am reminded of local cycling etiquette by the sharp tone of a bike bell\u2014I swiftly move to the right. The contrasting scents of pastries and smoky fumes fill my nostrils as I move away from a residential area into the inner city. My senses are heightened as I move across a tram track with intent, narrowly avoiding the embarrassing mistake of wedging my wheel. I approach an intersection, following the crowd to tactically cross the road (despite a red light) to avoid stoppage in motion.",
+      "x": 213,
+      "y": 721,
+      "w": 680,
+      "fontSize": 12
+    },
+    {
+      "id": "amsterdam-tree",
+      "type": "image",
+      "src": "static/amsterdam1.png",
+      "alt": "Canal houses and a tree in Amsterdam",
+      "x": 231,
+      "y": 947,
+      "w": 297,
+      "h": 396
+    },
+    {
+      "id": "amsterdam-facades",
+      "type": "image",
+      "src": "static/amsterdam2.png",
+      "alt": "Amsterdam canal houses",
+      "x": 567,
+      "y": 1003,
+      "w": 270,
+      "h": 285
+    },
+    {
+      "id": "on-foot-heading",
+      "type": "text",
+      "text": "on foot",
+      "nowrap": true,
+      "x": 773,
+      "y": 1368,
+      "w": 90,
+      "fontSize": 14,
+      "fontWeight": 700,
+      "lineHeight": 1
+    },
+    {
+      "id": "on-foot-body",
+      "type": "text",
+      "text": "As I walk, I fully absorb the city. My sight is locked onto beautiful Dutch fa\u00e7ades, the rings of bicycle bells and tram wheels clattering fill my ears, and the smells of baked goods and coffee enter my nostrils. I enjoy observing conversations of different languages, yet feel a sense of shame as rowdy British tourists noisily pass by. I relish the slower pace of movement, where I\u2019m more appreciative of my surroundings, wondering to myself - why don\u2019t I do this more often? Then I am reminded: the busy pavements of Amsterdam bring a sense of frustration as my pace is constantly disrupted by varying speeds of walkers, and large groups of people hoarding the pavement leave me unable to fulfil my fast-walking tendencies. A stranger and I share a dance of indecisiveness as we awkwardly shuffle past each other before I cross the road. My senses are amplified as I check twice for cyclists and narrowly avoid a stream of bikes",
+      "x": 213,
+      "y": 1411,
+      "w": 680,
+      "fontSize": 12
+    },
+    {
+      "id": "paddling-heading",
+      "type": "text",
+      "text": "paddling",
+      "nowrap": true,
+      "x": 214,
+      "y": 2459,
+      "w": 140,
+      "fontSize": 14,
+      "fontWeight": 700,
+      "lineHeight": 1
+    },
+    {
+      "id": "paddling-body",
+      "type": "text",
+      "text": "I awkwardly squeeze myself into my kayak, much to the amusement of two old men who seem convinced I\u2019d gone mad. The sun glares into my eyes and splashes of water sprinkle me as I set into a slow paddling rhythm. My position in the water offers an alternative perspective of the city, bicycles and pedestrians pass overhead as I drift under bridges, and I receive an earthy, damp scent from the canal wall. The constant, chaotic motion of the street is replaced by slow-moving boats, which come and go every few minutes and send a small wake my way. I adjust my position in the water, sticking to the right, scanning both ahead and behind for boats. I experienced a brief conversation with a local man on his canal boat who was pleased to see me and commended me for kayaking the canals. As I approached a bridge, a boat gave me a honk, signalling me to pass through. I turn into the wide-stretching Amstel, experiencing a wave of intimidation, where I feel exposed yet unnoticeable amongst a \u2018sea\u2019 of ships. My senses are on high alert as I scan the water constantly and quickly paddle downstream. I make a sharp turn into the safe-haven that is the Amsterdam canals",
+      "x": 213,
+      "y": 2499,
+      "w": 680,
+      "fontSize": 12
+    },
+    {
+      "id": "kayak",
+      "type": "image",
+      "src": "static/kayak.png",
+      "alt": "Looking down a canal from a kayak",
+      "x": 221,
+      "y": 2797,
+      "w": 298,
+      "h": 398
+    }
+  ]
+}

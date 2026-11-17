@@ -1,0 +1,164 @@
+{
+  "canvas": {
+    "w": 1024,
+    "h": 4400
+  },
+  "elements": [
+    {
+      "id": "sphere-title",
+      "type": "text",
+      "text": "visit to the sphere homes",
+      "role": "title",
+      "nowrap": true,
+      "x": 101,
+      "y": 48,
+      "w": 280,
+      "fontSize": 12,
+      "fontWeight": 700,
+      "lineHeight": 1
+    },
+    {
+      "id": "sphere-facts",
+      "type": "facts",
+      "name": "visit to the sphere homes",
+      "target": "sphere-title",
+      "when": "1984",
+      "where": "'s-Hertogenbosch",
+      "who": "Dries Kreijkamp",
+      "lat": 51.7297,
+      "lng": 5.3066,
+      "x": 696,
+      "y": 48,
+      "w": 280,
+      "fontSize": 12
+    },
+    {
+      "id": "sphere-body",
+      "type": "text",
+      "text": "Eager for adventure, I hopped on my bicycle and set my sights on the Sphere Homes. A 100km journey from my flat in Amsterdam...\n\nThe ubuquity of cycle routes made the journey an absolute treat.\n\nTraversing the Dutch countryside is super relaxing. A real flo-state of cycling is made easy by the abscense of hills. To my suprise I even came across a fine British exports: a red telephone box that had somehow made it to the remote village of X just south of Utrecht.\n\nAfter scowering Google Maps for a camping spot, I settled on a small patch of farmland just outside of the city and set up my tent. Wild [urban!] camping is not for the faint hearted, myself included. Spooked by crunching leaves and a brief beam of light into my tent, the rest of the night was spent tossing and turning until I was awoken by the morning cockrel call and made my swift exit.",
+      "x": 101,
+      "y": 120,
+      "w": 820,
+      "fontSize": 12
+    },
+    {
+      "id": "sphere-trees",
+      "type": "image",
+      "src": "static/spherehouses.png",
+      "alt": "Sphere homes seen through trees",
+      "x": 212,
+      "y": 393,
+      "w": 617,
+      "h": 598
+    },
+    {
+      "id": "windmill",
+      "type": "image",
+      "src": "static/bikewindmill.png",
+      "alt": "Bicycle beside a windmill",
+      "x": -261,
+      "y": 852,
+      "w": 391,
+      "h": 521
+    },
+    {
+      "id": "tent",
+      "type": "image",
+      "src": "static/tentage.png",
+      "alt": "Tent pitched at night",
+      "x": 858,
+      "y": 1053,
+      "w": 266,
+      "h": 356
+    },
+    {
+      "id": "plaque",
+      "type": "image",
+      "src": "static/spherehousedesc.png",
+      "alt": "Plaque describing the spherical houses",
+      "x": 97,
+      "y": 1453,
+      "w": 655,
+      "h": 354
+    },
+    {
+      "id": "spheres-day",
+      "type": "image",
+      "src": "static/spherehouses2.png",
+      "alt": "Sphere homes against a blue sky",
+      "x": 42,
+      "y": 1969,
+      "w": 339,
+      "h": 452
+    },
+    {
+      "id": "schoonschip-title",
+      "type": "text",
+      "text": "Schoonschip",
+      "role": "title",
+      "nowrap": true,
+      "x": 101,
+      "y": 2626,
+      "w": 200,
+      "fontSize": 12,
+      "fontWeight": 700,
+      "lineHeight": 1
+    },
+    {
+      "id": "schoonschip-facts",
+      "type": "facts",
+      "name": "Schoonschip",
+      "target": "schoonschip-title",
+      "when": "2021",
+      "where": "Amsterdam-Noord",
+      "who": "Space&Matter",
+      "lat": 52.3946,
+      "lng": 4.9062,
+      "x": 696,
+      "y": 2626,
+      "w": 280,
+      "fontSize": 12
+    },
+    {
+      "id": "schoonschip-drawing",
+      "type": "image",
+      "src": "static/schoonschip.png",
+      "alt": "Illustrated plan of Schoonschip",
+      "fit": "contain",
+      "x": 189,
+      "y": 2741,
+      "w": 544,
+      "h": 296
+    },
+    {
+      "id": "schoonschip-photo",
+      "type": "image",
+      "src": "static/schoon2.png",
+      "alt": "Wooden houses along a planted canal",
+      "x": 243,
+      "y": 3126,
+      "w": 453,
+      "h": 440
+    },
+    {
+      "id": "image-1794913406650",
+      "type": "image",
+      "src": "static/spherehouses3.png",
+      "alt": "",
+      "x": 494,
+      "y": 1969,
+      "w": 379,
+      "h": 449
+    }
+  ],
+  "sections": [
+    {
+      "label": "visit to the sphere homes",
+      "target": "sphere-title"
+    },
+    {
+      "label": "Schoonschip",
+      "target": "schoonschip-title"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "canvas": {
+    "w": 1024,
+    "h": 132
+  },
+  "elements": [
+    {
+      "id": "intro",
+      "type": "text",
+      "text": "tyto is a space where my passion for people, movement and design coincide.",
+      "nowrap": true,
+      "x": 178,
+      "y": 48,
+      "w": 700,
+      "fontSize": 12,
+      "lineHeight": 1
+    }
+  ]
+}
