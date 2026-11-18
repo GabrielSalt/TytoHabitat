@@ -1,0 +1,146 @@
+.sheet {
+  width: min(820px, calc(100% - 48px));
+  margin: 48px auto 64px;
+}
+
+.lede,
+.prose,
+.section p {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.about .lede {
+  text-align: center;
+  margin-top: 72px;
+}
+
+.page-title,
+.section h2 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.habitat .section h2 { font-size: 12px; }
+
+.lede { margin-top: 18px; }
+
+.section {
+  margin-top: 72px;
+  scroll-margin-top: 28px;
+}
+
+.habitat > .section:first-child,
+.mobility .section:first-of-type { margin-top: 28px; }
+
+.piece {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.facts {
+  flex: 0 0 auto;
+  border: 1px solid #fff;
+  margin: 0;
+  padding: 8px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.facts div { margin: 0; }
+
+.prose p + p { margin-top: 1em; }
+
+.section .prose { margin-top: 28px; }
+
+.mobility .section h2 + p { margin-top: 18px; }
+
+figure { margin: 28px 0 0; }
+
+figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.wide {
+  width: min(617px, 100%);
+  margin-inline: auto;
+}
+
+.pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  align-items: start;
+  margin-top: 28px;
+}
+
+.pair figure { margin: 0; }
+
+.spread {
+  width: min(1100px, 100%);
+  margin: 36px auto 0;
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 24px;
+}
+
+.spread img {
+  display: block;
+  height: auto;
+}
+
+.spread img:first-child { width: min(391px, 48%); }
+.spread img:last-child { width: min(266px, 34%); }
+
+.drawing {
+  width: min(544px, 100%);
+  margin-inline: auto;
+}
+
+.drawing img { object-fit: contain; }
+
+.section-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: min(820px, calc(100% - 48px));
+  margin: 28px auto 0;
+}
+
+.section-nav a {
+  color: #6d7194;
+  font-size: 12px;
+  line-height: 1.35;
+  text-decoration: none;
+}
+
+.section-nav a:hover {
+  color: #111;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media (min-width: 1280px) {
+  .section-nav {
+    position: fixed;
+    z-index: 2;
+    top: 22px;
+    left: 22px;
+    width: 210px;
+    margin: 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .piece { flex-direction: column; }
+  .pair { grid-template-columns: 1fr; }
+}

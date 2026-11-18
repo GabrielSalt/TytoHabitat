@@ -7,12 +7,26 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/site.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/home.css">
 </head>
-<body data-layout="data/home.json" data-page="home">
-  <div id="stage"><div id="canvas"></div></div>
-  <script src="js/chrome.js"></script>
-  <script src="js/render.js"></script>
-  <script src="js/editor.js"></script>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">tyto<img src="static/mark.png" alt=""></a>
+    <nav class="site-nav">
+      <a href="about.html">about</a>
+      <a href="mobility.html?v=2">mobility</a>
+      <a href="habitat.html">habitat</a>
+      <a href="ceramics.html">ceramics</a>
+    </nav>
+  </header>
+  <main class="home">
+    <img src="static/homepage.png" alt="Globes and plants in a window">
+  </main>
+  <footer class="site-footer">
+    salt.reuben@gmail.com /
+    <a href="https://www.instagram.com/tyto.habitat" target="_blank" rel="noopener">instagram</a>
+    / birmingham, uk ©
+  </footer>
 </body>
 </html>
